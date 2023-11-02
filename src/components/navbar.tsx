@@ -1,6 +1,7 @@
 "use client"; // This is a client component 👈🏽
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
+/* eslint-disable @next/next/no-img-element */
 
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -39,10 +40,10 @@ function Navbar() {
         <header className={`fixed py-1 text-black w-full z-50 transition-all bg-warmneutral   duration-200 ${!isScrolled ? '' : 'shadow-lg'}`}>
             <div className="container  flex justify-between  mx-auto">
                 <div className="flex">
-                    <a href="/">
+                    <Link href="/">
                         <img src="/classbase-2.png" alt="" className='h-16 px-4' />
 
-                    </a>
+                    </Link>
                     <ul className="items-stretch hidden space-x-3 lg:flex">
                         <li className="flex">
                             <Link rel="noopener noreferrer" href="/about" className="flex items-center px-2 -mb-1 hover:text-purple-500   ">Hakkımızda</Link>
