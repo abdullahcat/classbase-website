@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
     return (
         <div  >
             <Head>
-                <title>BeenHere</title>
+                <title>ClassBase</title>
             </Head>
             <Banner></Banner>
             <Powered></Powered>
