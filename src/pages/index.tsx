@@ -11,7 +11,6 @@ import Powered from '@/components/powered';
 import Features from '@/components/features';
 import FeaturesGrid from '@/components/featuresgrid';
 import CTA from '@/components/cta';
-import Pricing from '@/components/pricing';
 import IntroVideo from '@/components/introvideo';
 const HomePage: React.FC = () => {
 
